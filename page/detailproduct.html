@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twinnie Bakery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/stylleIndex.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="search" id="boxsearch">
+        <input type="text" placeholder=" Search...">
+        <button class="fa-solid fa-magnifying-glass iconHR"></button>
+        <button id="btbncancelsearch" class="fa-solid fa-x iconHRcancel"></button>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navparent">
+        <a class="navbar-brand" href="index.html">Twinne Bakery</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Trang Chủ<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Product.html">Sản phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="New.html">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Liên hệ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header-left">
+            <button class="fa-solid fa-user" onclick="location.href='singin.html'"></button>
+            <a href="#" class="fa-solid fa-phone iconLH"> 09xxxxxxx</a>
+        </div>
+        <div class="logo">
+            <a href="../index.html"><img src="../images/logo.png" alt="Logo"></a>
+        </div>
+        <div class="header-right">
+            <button id="clicksearch" class="fa-solid fa-magnifying-glass iconHR"></button>
+            <a href="#" class="fa-solid fa-cart-shopping iconHR"></a>
+        </div>
+    </header>
+    <div id="carouselExampleIndicators" class="carousel slide slider" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100 imgslider" src="../images/banner6.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 imgslider" src="../images/banner4.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 imgslider" src="../images/banner3.jpg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="detail">
+        <div class="detail1">
+            <img src="../images/pr1.png" alt="">
+            <form>
+                <h1>Bánh gạo vị ngọt dịu One - One gói 150g</h1>
+                <span>Liên hệ</span>
+                <p>Bao bì sản phẩm có thể thay đổi theo nhà cung cấp Chế biến từ những
+                    hạt gạo thơm ngon Từng chiếc bánh có vị giòn rụm, ngọt thanh. Báo gạo
+                    thích hợp làm món ăn vặt hấp dẫn
+                </p>
+            </form>
+        </div>
+    </div>
+    <div class="detail">
+        <div class="detail2">
+            <span>MÔ TẢ SẢN PHẨM</span>
+            <hr>
+            <p>Bánh gạo ngọt dịu One - One được chế biến từ nhựng hạt gạo thơm ngon
+                tuyển chọn ở các vùng lúa gạo đăc sản Việt Nam. Sản phẩm không dùng phụ gia tổng hợp, chất tạo màu, chát
+                bảo quản,
+                Không chiên qua dầu nên giữ được hương thơm của lúa gạo. Đây còn là loại bánh không chúa cholesterp;, ít
+                béo nên thích
+                hợp cho cả người ăn kiêng. Sản phẩm bảo vệ sức khoẻ người tiêu dùng.
+            </p>
+        </div>
+    </div>
+    <h2 class="txttitle">SẢN PHẨM LIÊN QUAN</h2>
+    <div class="divparenpro">
+        <div class="divpro" onmouseover="showpro5()" onmouseout="hidepro5()">
+            <a href="#"><img src="../images/pr6.png" alt="pr1"></a>
+            <div class="product" id="hidepro5">
+                <a href="#">
+                    <p class="txtpro">Bánh trứng Tik Tok sầu riêng</p>
+                </a>
+                <p class="txtpri"> 80.000đ/p>
+            </div>
+            <div class="prohide" id="showpro5">
+                <button class="prhd1">XEM THÊM</button>
+                <button class="fa-solid fa-cart-plus prhd2"></button>
+            </div>
+        </div>
+        <div class="divpro" onmouseover="showpro6()" onmouseout="hidepro6()">
+            <a href="#"><img src="../images/pr7.png" alt="pr1"></a>
+            <div class="product" id="hidepro6">
+                <a href="#">
+                    <p class="txtpro">Hộp 10 gói bánh Kinh Đô</p>
+                </a>
+                <p class="txtpri"> 50,000đ</p>
+            </div>
+            <div class="prohide" id="showpro6">
+                <button class="prhd1">XEM THÊM</button>
+                <button class="fa-solid fa-cart-plus prhd2"></button>
+            </div>
+        </div>
+        <div class="divpro" onmouseover="showpro7()" onmouseout="hidepro7()">
+            <a href="#"><img src="../images/pr8.png" alt="pr1"></a>
+            <div class="product" id="hidepro7">
+                <a href="#">
+                    <p class="txtpro">Bánh sửa Long Thành Lothamilk</p>
+                </a>
+                <p class="txtpri"> 60,000đ</p>
+            </div>
+            <div class="prohide" id="showpro7">
+                <button class="prhd1">XEM THÊM</button>
+                <button class="fa-solid fa-cart-plus prhd2"></button>
+            </div>
+        </div>
+        <div class="divpro" onmouseover="showpro8()" onmouseout="hidepro8()">
+            <a href="#"><img src="../images/pr8.png" alt="pr1"></a>
+            <div class="product" id="hidepro8">
+                <a href="#">
+                    <p class="txtpro">Bánh gấu chùm ngây</p>
+                </a>
+                <p class="txtpri"> 40,000đ</p>
+            </div>
+            <div class="prohide" id="showpro8">
+                <button class="prhd1">XEM THÊM</button>
+                <button class="fa-solid fa-cart-plus prhd2"></button>
+            </div>
+        </div>
+        <div class="divpro" onmouseover="showpro9()" onmouseout="hidepro9()">
+            <a href="#"><img src="../images/pr10.png" alt="pr1"></a>
+            <div class="product" id="hidepro9">
+                <a href="#">
+                    <p class="txtpro">Bánh bơ trứng Richy</p>
+                </a>
+                <p class="txtpri"> 30,000đ</p>
+            </div>
+            <div class="prohide" id="showpro9">
+                <button class="prhd1">XEM THÊM</button>
+                <button class="fa-solid fa-cart-plus prhd2"></button>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="txtparentfooter">
+                <div class="txtfooter">
+                    <p class="txt1">TWINNE BAKERY - BÁNH TƯƠI MỖI NGÀY</p>
+                    <p class="txt2
+                    ">Twinie Bakery bánh và cà phê khởi nguồn từ năm 2011 là thương hiệu sản xuất và bán bánh với
+                        slogan
+                        Bánh tươi mỗi ngày.Những năm đầu, sản phẩm chủ lực của Twinnie Bakery là bánh kem
+                        và bánh mì tươi. Trong mỗi diệp lễ hay sinh nhật, bánh kem của Twinie Bakery luôn là lựa chọn
+                        hàng
+                        đầu, bởi độ ngọt vừa phải, mẫu bánh đẹp và giá hợp lý
+                    </p>
+                </div>
+                <div class="contact">
+                    <img src="../images/logo.png" alt="">
+                    <p>Địa chỉ: Quận Tân Bình,HCM</p>
+                    <p>Số điện thoại:09xxxxxxx</p>
+                    <p>Email:xxxx@gmail.com</p>
+                </div>
+                <div class="social">
+                    <ul>
+                        <a href="#">
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fa-brands fa-tiktok"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fa-brands fa-youtube"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                        </a>
+                    </ul>
+                </div>
+
+            </div>
+        </footer>
+        
+        <button class="fa-solid fa-up-long scrollTop" onclick="scrollToTop()"></button>
+        <script src="../js/index.js"></script>
+</body>
